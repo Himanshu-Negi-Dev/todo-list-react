@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo_container{
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.todo_container form{
+  margin: auto;
+}
+
+.todo_item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 2px;
+  border-bottom: 1px solid grey;
+}
+
+.todo_btn button{
+  margin-left: 2px;
+}
